@@ -13,8 +13,6 @@ def go_to_cafe(friends: list, cafe: Cafe) -> str:
             return str(vac_error)
 
     if mask_to_buy:
-        if mask_to_buy == 1:
-            return f"Friends should buy {mask_to_buy} mask"
         return f"Friends should buy {mask_to_buy} masks"
 
-    return (f"Friends can go to {cafe.name}")
+    return f"Friends can go to {cafe.name}"
